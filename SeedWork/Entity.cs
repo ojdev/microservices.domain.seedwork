@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace YYY.Microservices.Domain.SeedWork
 {
-    public abstract class Entity<TKey> where TKey : struct
+    public abstract class Entity<TKey> : IEntity where TKey : struct
     {
         int? _requestedHashCode;
         TKey _Id;

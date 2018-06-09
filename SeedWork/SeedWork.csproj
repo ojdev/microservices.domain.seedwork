@@ -6,7 +6,7 @@
     <RootNamespace>YYY.Microservices.Domain.SeedWork</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>欧俊</Authors>
     <PackageProjectUrl>https://github.com/ojdev/yyy.microservices.domain</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ojdev/yyy.microservices.domain</RepositoryUrl>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>YYY.Microservices.Domain.SeedWork</AssemblyName>
+    <RootNamespace>YYY.Microservices.Domain.SeedWork</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>0.0.1</Version>
+    <Authors>欧俊</Authors>
+    <PackageProjectUrl>https://github.com/ojdev/yyy.microservices.domain</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ojdev/yyy.microservices.domain</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>

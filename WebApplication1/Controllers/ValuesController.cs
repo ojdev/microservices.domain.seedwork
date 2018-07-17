@@ -7,7 +7,11 @@ using YYY.Microservices.Domain.SeedWork;
 
 namespace WebApplication1.Controllers
 {
-    [Route("api/[controller]")]
+    public class VId
+    {
+        public string Id { set; get; }
+    }
+    [Route("api")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
@@ -15,21 +19,21 @@ namespace WebApplication1.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            throw new Exception("sdfsdfsdfsdfsdfsdf");
             return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        [HttpGet("{id}/{body}")]
+        public ActionResult<string> Get(int id, string body)
         {
             return "value";
         }
 
         // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("{id}/del/{key}")]
+        public string Post(int id, string key, [FromBody] VId value)
         {
+            return $"{id},{value.Id}";
         }
 
         // PUT api/values/5

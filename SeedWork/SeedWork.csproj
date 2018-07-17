@@ -6,17 +6,17 @@
     <RootNamespace>YYY.Microservices.Domain.SeedWork</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Version>0.0.3</Version>
+    <Version>0.0.4</Version>
     <Authors>欧俊</Authors>
     <PackageProjectUrl>https://github.com/ojdev/yyy.microservices.domain</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ojdev/yyy.microservices.domain</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
+    <PackageId>YYY.Microservices.Domain.SeedWork</PackageId>
+    <Product>YYY.Microservices.Domain.SeedWork</Product>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="5.0.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.1" />
   </ItemGroup>
 
 </Project>
